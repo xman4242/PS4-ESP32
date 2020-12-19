@@ -107,7 +107,7 @@ void ps4_gap_send_hid( hid_cmd_t *hid_cmd, uint8_t len )
         //printf("[%s] sending command: success", __func__);
     }
     else {
-        ESP_LOGE(PS4_TAG, "[%s] sending command: failed\n", __func__);
+        ESP_LOGI(PS4_TAG, "[%s] sending command: failed\n", __func__);
         //printf("[%s] sending command: success", __func__);
     }
 }
